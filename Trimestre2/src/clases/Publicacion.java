@@ -9,12 +9,11 @@ public class Publicacion {
 	private String tituloPubli;
 	private String contenidoPubli;
 	private String autor;
-	private Date fechaPubli;
+	private int fechaPubli;
 	private List<Comentario> comentarios;
 	
 	//contructor
-	public Publicacion(String tituloPubli, String contenidoPubli, String autor, Date fechaPubli,
-			List<Comentario> comentarios) {
+	public Publicacion(String tituloPubli, String contenidoPubli, String autor, int fechaPubli) {
 		this.tituloPubli = tituloPubli;
 		this.contenidoPubli = contenidoPubli;
 		this.autor = autor;
@@ -53,10 +52,10 @@ public class Publicacion {
 	public void setAutor(String autor) {
 		this.autor = autor;
 	}
-	public Date getFechaPubli() {
+	public int getFechaPubli() {
 		return fechaPubli;
 	}
-	public void setFechaPubli(Date fechaPubli) {
+	public void setFechaPubli(int fechaPubli) {
 		this.fechaPubli = fechaPubli;
 	}
 	public List<Comentario> getComentarios() {

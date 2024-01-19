@@ -32,15 +32,23 @@ public class Blog {
 	}
 
 	/* buscarpublicacionesporautor */
-	public void buscarPubliPorAutor(Publicacion publicacion, String autor) {
+	public void buscarPubliPorAutor(String autor) {
+		List<Publicacion> publisAutor = null;
 		System.out.println("Las publicaciones de este autor son: ");
-		for (Publicacion autores : listaPublicaciones) {
+		for (Publicacion publicacion : listaPublicaciones) {
 			if (publicacion.getAutor().equals(autor)) {
-				System.out.println(publicacion.getContenidoPubli());
-			} else {
-				System.out.println(autor + " no tiene ninguna publicación");
+				publisAutor.add(publicacion);
 			}
 		}
+		if()
+		for (Publicacion publicacion : publisAutor) {
+			if(publisAutor != null) {
+				System.out.println("El titulo es: "+publicacion.getTituloPubli()+" el contenido es: "+publicacion.getContenidoPubli());
+			} else {
+				System.out.println("El autor no tiene ninguna publicacion en este blog");
+			}
+		}
+		
 	}
 
 	/*

@@ -5,13 +5,13 @@ import java.sql.Date;
 public class Comentario {
 	//atributos
 	private String contenidoComen;
-	private String autor;
-	private Date fechaComentario;
+	private String usuario;
+	private int fechaComentario;
 	
 	//constructor
-	public Comentario(String contenidoComen, String autor, Date fechaComentario) {
+	public Comentario(String contenidoComen, String usuario, int fechaComentario) {
 		this.contenidoComen = contenidoComen;
-		this.autor = autor;
+		this.usuario = usuario;
 		this.fechaComentario = fechaComentario;
 	}
 	
@@ -22,16 +22,16 @@ public class Comentario {
 	public void setContenidoComen(String contenidoComen) {
 		this.contenidoComen = contenidoComen;
 	}
-	public String getAutor() {
-		return autor;
+	public String getUsuario() {
+		return usuario;
 	}
-	public void setAutor(String autor) {
-		this.autor = autor;
+	public void setAutor(String usuario) {
+		this.usuario = usuario;
 	}
-	public Date getFechaComentario() {
+	public int getFechaComentario() {
 		return fechaComentario;
 	}
-	public void setFechaComentario(Date fechaComentario) {
+	public void setFechaComentario(int fechaComentario) {
 		this.fechaComentario = fechaComentario;
 	}
 	
