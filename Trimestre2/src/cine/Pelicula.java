@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 
 public class Pelicula {
-	//atributos
+	//atributos5
 	private String titulo;
 	private List<String> genero;
 	private double duracion;

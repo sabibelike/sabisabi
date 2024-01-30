@@ -1,7 +1,7 @@
 package cine;
 
 public class Reserva {
-	//atributos
+	//atributos5
 	private Pelicula pelicula;
 	private int cantidadReservada;
 	

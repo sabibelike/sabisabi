@@ -1,7 +1,7 @@
 package cine;
 
 public class Cine {
-	//atributos
+	//atributos4
 	private String nombre;
 	private String ubicacion;
 	private double precioBoleto;

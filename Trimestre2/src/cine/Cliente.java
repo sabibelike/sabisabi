@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Cliente {
-	//atributos
+	//atributos4
 	private String nombre;
 	private String numero;
 	private List<Reserva> boletosReservados;
