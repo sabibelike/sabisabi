@@ -15,7 +15,7 @@ public class Cliente {
 		this.numero = numero;
 		this.setBoletosReservados(new ArrayList<>());
 	}
-	//obtener boletosdadas
+	//obtener boletosdadasbhjhbj
 	
 	//getter and setters
 	public String getNombre() {
