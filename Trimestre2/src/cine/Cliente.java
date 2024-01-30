@@ -10,10 +10,10 @@ public class Cliente {
 	private List<Reserva> boletosReservados;
 	
 	//constructor
-	public Cliente(String nombre, String numero, List<Reserva> boletosReservados) {
+	public Cliente(String nombre, String numero) {
 		this.nombre = nombre;
 		this.numero = numero;
-		this.setBoletosReservados(new ArrayList<>());
+		this.boletosReservados = new ArrayList<>();
 	}
 	//obtener boletos
 	
