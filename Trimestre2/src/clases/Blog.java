@@ -40,7 +40,7 @@ public class Blog {
 				publisAutor.add(publicacion);
 			}
 		}
-		if()
+		
 		for (Publicacion publicacion : publisAutor) {
 			if(publisAutor != null) {
 				System.out.println("El titulo es: "+publicacion.getTituloPubli()+" el contenido es: "+publicacion.getContenidoPubli());
